@@ -1,0 +1,391 @@
+.image_rounded img{
+    display: none;
+}
+@media only screen and (min-width: 992px) {   
+    .slide_button{display: none !important;}
+    .slide_btn_for_mobile{
+        display: none;
+    }
+   
+    
+   }
+   .image_circle{
+       display: none;
+   }
+.canvas{
+    background-color: rgb(17,17,17);
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.about__header{
+ display: flex;
+ justify-content: center;
+ margin-top: 5%;
+ position: relative;
+
+}
+.front__about{
+    font-size: 55px;
+ font-weight: 900;
+ color: white;
+ z-index:3 ;
+}
+.front__about span{
+ color: orange;
+ z-index:3 ;
+
+
+}
+.bg__resume{
+    font-size: 100px;
+ font-weight: 900;
+ color: rgba(128, 128, 128, 0.3);
+ position: absolute;
+ z-index: -1;
+ top: -40px;
+ left: 34%;
+ letter-spacing: 5px;
+}
+
+.about_upper_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.about_info_resume_child{
+    display: flex;
+    justify-content: space-between;
+}
+.about_info_box{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 20px;
+    padding-left: 0px;
+}
+.about_info_resume h3{
+    color: white;
+}
+
+.actual_info{
+    padding: 20px 40px 0px 0px ;
+}
+.actual_info div{
+    margin-top: 15px;
+    color: rgb(218, 218, 218);
+    font-weight: 600;
+}
+.actual_info div span{
+  
+    color: white;
+}
+.slide_button{
+   position: absolute;
+   top: 85%;
+   left: 15%;
+}
+.hr_line{
+    height: 40px;
+    width: 500px;
+    color: white;
+    margin:120px auto 0px auto;
+ 
+}
+.circle {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: black;
+    display: none;
+  }
+  
+  .circle-border {
+    position: relative;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    margin-left: 30%;
+    border-radius: 100%;
+    background-color: orange;
+    background-image: linear-gradient(270deg, transparent 80%, #222 20%);
+  }
+.cont{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 10px 40px;
+}
+.svgskill{
+    margin-top: -10px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left: 0%;
+    
+}
+.skill_header{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.adjhr_line{margin-top: 40px;}
+.canvas{
+    padding-bottom: 30px;
+}
+.btn_attribute_more_adj{
+    margin-left: 10px;
+    font-weight: 900;
+}
+.btn_attribute_more_adj{
+    margin-top: -10px;
+}
+.slide_button1{
+    position: relative;
+    left: 15%;
+}
+
+
+/* responsive navbar code starts */
+.slide_button{
+    height: 55px;
+    width: 55px;
+    background-color: #222;
+     margin: 30px 30px 0px 0px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 10;
+     position: absolute;
+     top: 5% !important;
+     left: 84% !important;
+  }
+  #responsive_menu{
+    width: 100%;
+    height: 100%;
+    background-color:#222 ;
+    position: absolute;
+    top: 0;
+    padding:0px 40px;
+    padding-top: 80px;
+    transition: 2s;
+  }
+ #show_none{
+   display: none;
+ }
+  .disp_none{
+    display: flex;
+  }
+  .res_menu_title{
+    color: white;
+  }
+
+  .res_menu_items{
+    display: flex;
+  }
+  .res_menu_icon{
+    margin-top: 5px;
+  }
+  .res_menu_title{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+
+  /* responsive navbar ends */
+
+  .show_none{
+      display: none;
+  }
+  @media only screen and (max-width: 870px) {  
+      .slide_btn_for_mobile{
+          display: none;
+      } 
+    .about_upper_container{
+        flex-direction: column;
+    }
+    .about_info_resume_child{
+        justify-content: space-around;
+    }
+    .about_info_resume h3{
+        color: white;
+        margin-left: 10%;
+
+    }
+
+    .about_info_box {
+        padding-left: 83px;
+        margin-top: 30px;
+
+    }
+    .about_info_box_content {
+       
+        padding: 31px 19px 33px 20px;
+        margin-left: 10px;
+    }
+    .slide_button1{
+        position: relative;
+        left: 36%;
+        margin-top: 40px;
+    }
+    .cont {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-gap: 0px 11px;
+        margin-left: 10%;
+    }
+   
+    .skill_up_hr {
+        margin: -5rem 0;
+        color: inherit;
+        background-color: currentColor;
+        border: 0;
+        opacity: .25;
+    }
+    .cont_inside {
+        padding-left: 50px;
+        padding-top: 0px;
+        padding-right: 16px;
+        padding-bottom: 0px;
+    }
+    .experience_and_education {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+   
+    
+    
+   }
+
+   @media only screen and (max-width: 694px) { 
+       .slide_btn_for_mobile{
+           display: none;
+       }
+   .cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: -11px 70px;
+}
+
+.about_info_resume_child{
+    margin-top: 32%;
+}
+.image_rounded{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #222;
+    margin-left: 25%;
+    margin-top: 20px;
+    position: relative;
+}
+.image_rounded img{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.about_info_resume_child {
+    margin-top: 5%;
+    margin-left: 20px;
+}
+.about_info_box{
+    padding-left: 0px;
+}
+.slide_button1{
+    display: none;
+
+}
+.slide_btn_for_mobile{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 60px;
+
+}
+
+.caption_for_btn{
+    margin-top: 10px;
+    color: white;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+.add_class{
+    transition: 0.5s;
+}
+.add_class:hover{
+background-color: #222;
+color: white;
+cursor: pointer
+
+}
+.cont{
+    margin-left: -20px;
+}
+
+
+.experience_and_education {
+    display: flex;
+    justify-content: center;
+   margin-left: -90px;
+}
+.actual_info div{
+    font-size: 14px;
+}
+.real_desc{
+    font-size: 14px;
+}
+.inside_content_dsc{
+    font-size: 12px;
+}
+
+element.style {
+}
+
+.experience_and_education_box {
+   
+    height: 140px;
+
+}
+.front__about {
+    font-size: 41px;
+    
+}
+.bg__resume {
+    font-size: 86px;
+    font-weight: 900;
+    color: rgba(128, 128, 128, 0.3);
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    left: 0%;
+    letter-spacing: 5px;
+}
+
+
+
+
+   }
+
+  
+   
+    
+
+   

@@ -1,0 +1,99 @@
+.Navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    flex-direction: column;
+    position: fixed;
+   }
+   .icon{
+    color: white;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: -1%;
+    bottom:-1px;
+    position: absolute;
+   }
+   .icon_active{
+    background-color: orange;
+   }
+   .icon_wrapper{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+    position: relative;
+   }
+   
+   .icon_header{
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    z-index: 1;
+    font-size: 17px;
+    display: none;
+    font-weight: 600;
+   }
+   .icon_header_rename{
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    z-index: 1;
+    font-size: 17px;
+    display: none;
+    font-weight: 600;
+   }
+   .icon_header_rename1{
+    color: white;
+    position: absolute;
+    left: 23%;
+    top: 25%;
+    z-index: 1;
+    font-size: 17px;
+    display: none;
+    font-weight: 600;
+   }
+   .none{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50px;
+    right: 5px;
+    transition: 0.2s;
+    top: 1.2%;
+   }
+   .icon_wrapper:hover .none{
+   width: 93%;
+   background-color: orange;
+   }
+   .icon_wrapper:hover .icon{
+    background-color: orange;
+   }
+   .icon_wrapper:hover .icon_header{
+    display: block;
+   }
+   .icon_wrapper:hover .icon_header_rename{
+    display: block;
+   }
+   .icon_wrapper:hover .icon_header_rename1{
+    display: block;
+   }
+   
+
+   @media only screen and (max-width: 992px) {  
+    .Navbar{
+          display: none !important;
+    }  
+   
+
+}   

@@ -1,0 +1,23 @@
+.crkl{stroke: #222; fill: none;stroke-width:7px;}
+.jkl1{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:94.5; } /*70%=30% of 315=94*/
+.jkl2{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:126; }
+.jkl3{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:63; }
+.jkl4{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:126; }
+.jkl5{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:126; }
+.jkl6{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:157; }
+.jkl7{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:63; }
+.jkl8{ fill: none;stroke:orange;stroke-width:7px; transform: rotate(-90deg); transform-origin: center;stroke-dasharray:315 ; stroke-dashoffset:189; }
+
+
+
+.amplitude{color: white;}  
+.cont_inside{
+    padding-left: 0px;
+    padding-top: 0px;
+
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+
+
+}

@@ -1,0 +1,41 @@
+.btn{
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    border:1px solid orange;
+    position: relative;
+   }
+   .btn_inner{
+    position: absolute;
+    height: 50px;
+    width: 10%;
+    background-color: orange;
+    border-radius: 50px;
+    top: 0px;
+    right: 10px;
+    transition: 0.3s;
+   }
+   .btn:hover .btn_inner{
+   width: 96%;
+   }
+   .btn_attributes{
+    position: absolute;
+    color: white;
+    left: 22%;
+    top: 30%;
+   }
+   .btn_attribute_icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -14px;
+    margin-left:78px;
+   }
+   .btn_attribute_more{
+    font-size: 15px;
+   }
+   

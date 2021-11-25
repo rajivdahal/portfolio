@@ -1,0 +1,51 @@
+.wrapper{
+    background-color: #222;
+    height: 100%;
+    width: 110%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.wrapper img:hover{
+    transform: scale(1.1);
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: orange;
+}
+.image{
+    height:60% ;
+    overflow: hidden;
+}
+.title{
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.title:hover{
+ color: orange;
+}
+.title_wrapper{
+    
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.desc_wrapper{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.desc{
+    
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/rajivdahal/static/css/main.6479cc0b.chunk.css",
+    "main.js": "/rajivdahal/static/js/main.a04e3f7e.chunk.js",
+    "main.js.map": "/rajivdahal/static/js/main.a04e3f7e.chunk.js.map",
+    "runtime-main.js": "/rajivdahal/static/js/runtime-main.bbbb395f.js",
+    "runtime-main.js.map": "/rajivdahal/static/js/runtime-main.bbbb395f.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/rajivdahal/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.0f664157.chunk.js": "/rajivdahal/static/js/2.0f664157.chunk.js",
+    "static/js/2.0f664157.chunk.js.map": "/rajivdahal/static/js/2.0f664157.chunk.js.map",
+    "index.html": "/rajivdahal/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/rajivdahal/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.6479cc0b.chunk.css.map": "/rajivdahal/static/css/main.6479cc0b.chunk.css.map",
+    "static/js/2.0f664157.chunk.js.LICENSE.txt": "/rajivdahal/static/js/2.0f664157.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/rajivdahal/static/media/1.66d2d152.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbbb395f.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.0f664157.chunk.js",
+    "static/css/main.6479cc0b.chunk.css",
+    "static/js/main.a04e3f7e.chunk.js"
+  ]
+}

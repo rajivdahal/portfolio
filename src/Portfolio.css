@@ -1,0 +1,108 @@
+.portfolio_canvas{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.portfolio__header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+   }
+   .front__portfolio{
+       font-size: 55px;
+    font-weight: 900;
+    color: white;
+    z-index:3 ;
+    margin-top: 5%;
+   }
+   .front__portfolio span{
+    color: orange;
+    z-index:3 ;
+   }
+   .bg__portfolio{
+       font-size: 100px;
+    font-weight: 900;
+    color: rgba(128, 128, 128, 0.3);
+    letter-spacing: 5px;
+    margin-top: -120px;
+    margin-left: -70px;
+    position: absolute;
+    z-index: -2;
+   
+
+   }
+   .portfolio_box_container_flex{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-left: 140px;
+
+   }
+   .portfolio_box_container_grid{
+       display: grid;
+       grid-template-columns: 25% 25% 25%;
+       grid-gap: 20px 20px;
+   }
+   .portfolio_box{
+       width: 100%;
+       border: 1px solid orange;
+       border-radius: 20px;
+       
+   }
+   .img_adjust{
+       width:100%;
+       height: 100%;
+       border-radius: 20px;
+   }
+   /* responsive navbar code starts */
+.slide_button{
+    height: 55px;
+    width: 55px;
+    background-color: #222;
+     margin: 30px 30px 0px 0px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 10;
+     position: absolute;
+     top: 5% !important;
+     left: 84% !important;
+  }
+  #responsive_menu{
+    width: 100%;
+    height: 100%;
+    background-color:#222 ;
+    position: absolute;
+    top: 0;
+    padding:0px 40px;
+    padding-top: 80px;
+    transition: 2s;
+  }
+ #show_none{
+   display: none;
+ }
+  .disp_none{
+    display: flex;
+  }
+  .res_menu_title{
+    color: white;
+  }
+
+  .res_menu_items{
+    display: flex;
+  }
+  .res_menu_icon{
+    margin-top: 5px;
+  }
+  .res_menu_title{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+
+  /* responsive navbar ends */
+  .display_none{
+    display: none;
+  }
