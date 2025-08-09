@@ -9,7 +9,7 @@
 }
 .contact_canvas{
     background-color: black;
-    min-height: 150vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 .alert{
@@ -25,7 +25,6 @@ a{
     display: flex;
     justify-content: center;
     position: relative;
-   
    }
 .front__contact{
        font-size: 55px;
@@ -50,6 +49,22 @@ a{
    }
    .visitor_info_container{
        display: flex;
+       flex-direction: column;
+       gap: 8px;
+       width: 100%;
+       >div {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            input {
+                margin-left: 0px;
+            }
+            input:disabled {
+                background: none;
+            }
+       }
    }
    .contact_body{
        display: flex;
@@ -98,20 +113,20 @@ a{
      height: 40px;
      padding-left: 10px;
      font-size: 14px;
-     color: orange;
+     color: white;
+
+     /* color: orange; */
 
   }
   .visitor_info_container input:focus{
     border: 1px solid orange;
     background-color: #222;
+    color: white;
   }
   .visitor_message{
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
   }
   .visitor_message textarea{
-      width: 90%;
+      width: 100%;
       min-height: 150px;
       background-color: #222;
       border-radius: 20px;
@@ -120,6 +135,7 @@ a{
       padding-left: 10px;
       padding-top: 7px;
       border: none;
+
   }
   .visitor_message textarea:focus{
       border: 1px solid orange;
@@ -198,6 +214,9 @@ a{
     margin-left: 10px;
 
 }
+    .contact_body_box {
+        width: 30%;
+    }
 @media only screen and (max-width: 964px) { 
     
     .alert{
@@ -210,45 +229,32 @@ a{
 @media only screen and (max-width: 876px) { 
     
     .contact_body{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .contact_body_box {
-        margin-left: 100px;
+        width: 70%;
+        
     }
     .contact_me_links{
-        margin-left: -15px;
+        /* margin-left: -15px; */
     }
     .contact_body_box form {
         margin-top: 20px;
         margin-left: -20px;
     }
-    .contact_body_box form textarea{
-        margin-left: -30px;
-    }
     .contact_canvas{
         background-color: #111;
-        height: 130vh;
     }
 
 }
 @media only screen and (max-width: 690px) {
 
- .visitor_info_container{
-     display: flex;
-     flex-direction: column;
-
- }
- .visitor_info_container input{
-     margin-top: 10px;
-     width:90%;
-     margin-left: 8px;
- }
- .contact_canvas{
-     overflow: hidden;
- }
-
-
+    .contact_canvas{
+        overflow: hidden;
+    }
  }
  @media only screen and (max-width: 587px) { 
      .bg__contact{

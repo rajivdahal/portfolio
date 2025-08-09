@@ -39,15 +39,22 @@
 
 }
 .bg__resume{
-    font-size: 100px;
+font-size: 100px;
  font-weight: 900;
  color: rgba(128, 128, 128, 0.3);
  position: absolute;
  z-index: -1;
  top: -40px;
- left: 34%;
+ left: 40%;
  letter-spacing: 5px;
 }
+ @media only screen and (max-width: 813px) {   
+  .bg__resume{ left: 25%;}  
+ }
+
+  @media only screen and (max-width: 694px) {   
+  .bg__resume{ left: 28% !important}  
+ }
 
 .about_upper_container{
     display: flex;
@@ -92,6 +99,9 @@
     color: white;
     margin:120px auto 0px auto;
  
+}
+.research_and_publications_hr {
+    margin-top: 7rem !important;
 }
 .circle {
     position: relative;

@@ -7,7 +7,7 @@
    }
    .btn_inner{
     position: absolute;
-    height: 50px;
+    height: 48px;
     width: 10%;
     background-color: orange;
     border-radius: 50px;
@@ -16,27 +16,26 @@
     transition: 0.3s;
    }
    .btn:hover .btn_inner{
-   width: 96%;
+    width: 96%;
    }
-   .btn_attributes{
-    position: absolute;
-    color: white;
-    display: flex;
-    left: 22%;
-    top: 30%;
-   }
+    .btn:hover .btn_attribute_icon{
+        border-radius: 0% 50% 50% 0%;
+    }
    .btn_attribute_icon{
-    height: 50px;
+    height: 48px;
     width: 50px;
     border-radius: 50%;
     background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -14px;
-    margin-left:40px;
+    position: absolute;
+    right: -1px;
+    top: 0px;
    }
    .btn_attribute_more{
     font-size: 15px;
+    position: relative;
+    z-index: 1;
+    top: 5px;
    }
-   

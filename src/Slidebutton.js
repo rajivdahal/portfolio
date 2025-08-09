@@ -7,9 +7,8 @@ export default function SLIDEBUTTON(props) {
     return (
         <div>
           <Link to="about">
-             <div className="btn">
+             <div className="btn more-about-me">
             <div className="btn_inner">
-              
             </div>
             <div className="btn_attributes">
               <div className="btn_attribute_more">{props.message}</div>

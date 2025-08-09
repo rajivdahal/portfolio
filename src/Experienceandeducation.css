@@ -67,3 +67,11 @@
     }
 
 }
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+    div {
+     color: blue !important;
+    }
+}

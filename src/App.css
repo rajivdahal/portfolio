@@ -1,0 +1,17 @@
+.slide_button {
+  position: fixed;
+  right: 0px;
+  top: 10px;
+  z-index: 1000;
+}
+#responsive_menu{
+    width: 100%;
+    height: 100vh;
+    background-color:#222 ;
+    position: absolute;
+    top: 0;
+    padding:0px 40px;
+    padding-top: 80px;
+    transition: 2s;
+    z-index: 900;
+  }
