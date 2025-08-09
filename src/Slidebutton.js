@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function SLIDEBUTTON(props) {
     return (
         <div>
-          <Link to="about">
+          <Link to="/portfolio/about">
              <div className="btn more-about-me">
             <div className="btn_inner">
             </div>

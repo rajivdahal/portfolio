@@ -18,31 +18,31 @@ const NAVBAR = () => {
     return (
         <div>
              <div className="Navbar">
-             <Link to="/">
+             <Link to="/portfolio">
           <div className={`icon_wrapper ${getActiveClass('home')}`}><div className="icon_header">HOME</div>
             <div className="none"></div>
             <div className="icon"><HomeIcon fontSize="small" /></div>
           </div>
           </Link>
-          <Link to="/about">
+          <Link to="/portfolio/about">
           <div className={`icon_wrapper ${getActiveClass('about')}`}><div className="icon_header">ABOUT</div>
             <div className="none"></div>
             <div className="icon"><PersonIcon fontSize="small" /></div>
           </div>
           </Link>
-          <Link to="/Portfolio">
+          <Link to="/portfolio/portfolio">
           <div className={`icon_wrapper ${getActiveClass('Portfolio')}`}><div className=" icon_header_rename">PORTFOLIO</div>
             <div className="none"></div>
             <div className="icon"><BusinessCenterIcon fontSize="small" /></div>
           </div>
           </Link>
-          <Link to="/contact">
+          <Link to="/portfolio/contact">
           <div className={`icon_wrapper ${getActiveClass('contact')}`}><div className="icon_header_rename1">CONTACT</div>
             <div className="none"></div>
             <div className="icon"><DraftsIcon fontSize="small" /></div>
           </div>
           </Link>
-          <Link to="/blog">
+          <Link to="/portfolio/blog">
           <div className={`icon_wrapper ${getActiveClass('blog')}`}><div className="icon_header">BLOG</div>
             <div className="none"></div>
             <div className="icon"><ForumIcon fontSize="small" /></div>

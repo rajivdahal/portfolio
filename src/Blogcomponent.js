@@ -11,7 +11,7 @@ function Blogcomponent(props) {
         <div className="wrapper">
             <div className="image"><img src={props.image}/></div>
             <div className="line"></div>
-            <Link to={`/blog/blogpost/${props.title}`}>
+            <Link to={`/portfolio/blog/blogpost/${props.title}`}>
             <div className="title_wrapper"><div className="title">{props.title}</div></div>
             </Link>
             <div className="desc_wrapper"><div className="desc">{props.desc}</div></div>
