@@ -16,7 +16,7 @@ import './App.css'
 
 export default function App() {
   return (
-    <Router basename='/portfolio'>
+    <Router>
       <ResponsiveNavbar />
       <Switch>
         <Route exact path="/">
